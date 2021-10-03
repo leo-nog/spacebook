@@ -1,0 +1,142 @@
+.App {
+    position: flex;
+    width: 85.375rem;
+    height: 48rem;
+}
+.imagelogin {
+    position: flex;
+    align-items: center;
+    width: 78.508rem;
+    height: 64rem;
+    left: -10.819rem;
+    top: 0rem;
+}
+.logotipo {
+    position: absolute;
+    width: 14.875rem;
+    height: 2.625rem;
+    left: 59.75rem;
+    top: 7.825rem;
+}
+.Titlelogin {
+    position: absolute;
+    width: 38.75rem;
+    height: 1.813rem;
+    left: 59.75rem;
+    top: 18.813rem;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #000000;
+}
+.Titleusername {
+
+    position: absolute;
+    width: 5.125rem;
+    height: 1.313rem;
+    left: 59.75rem;
+    top: 23.375rem;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+}
+.logininputemail {
+    /* Rectangle 2 */
+
+
+    position: absolute;
+    width: 413px;
+    height: 48px;
+    left: 956px;
+    top: 411px;
+
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+
+    /* E-mail */
+
+
+    position: absolute;
+    width: 45px;
+    height: 19px;
+    left: 974px;
+    top: 426px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #9D9D9D;
+
+}
+.Titlepass {
+
+    /* Password */
+
+
+    position: absolute;
+    width: 80px;
+    height: 21px;
+    left: 956px;
+    top: 491px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.logininputpass {
+    /* Rectangle 3 */
+
+
+    position: absolute;
+    width: 413px;
+    height: 48px;
+    left: 956px;
+    top: 528px;
+
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+
+    /* Password */
+
+
+    position: absolute;
+    width: 71px;
+    height: 19px;
+    left: 974px;
+    top: 543px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #9D9D9D;
+
+}
