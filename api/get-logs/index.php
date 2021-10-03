@@ -6,23 +6,34 @@ include("../global.php");
 $user_id = auth($_POST['token']);
 
 
-if(empty($_POST['content'])) {
-    error("Content field is required");
-}
-
-
-$query = "INSERT INTO logs_reg (`date_log`, `user_id`, `content`, `media`)
-          VALUES ('$datetime', '$user_id','{$_POST['content']}','{$_POST['media']}')";
-
-
-if(mysqli_query($mysqli, $query)) {
-    $result['message'] = "Log successfully saved";
-    
-    send($result);
+if(empty($_POST['user_id'])) {
+    $query = mysqli_query($mysqli, "SELECT * FROM logs_reg
+                                    ORDER BY id DESC");
 } else {
-    $result['message'] = "Error saving the log";
+    $validation = mysqli_fetch_assoc(mysqli_query($mysqli, "SELECT COUNT(*) as qtd FROM logs_reg 
+                                                            WHERE `user_id` = {$_POST['user_id']}"));
 
-    error("Error saving the log");
+    if($validation['qtd'] == 0) {
+        error("This user hasn't any logs");
+    }
+
+    $query = mysqli_query($mysqli, "SELECT * FROM logs_reg
+                                    WHERE `user_id` = {$_POST['user_id']}
+                                    ORDER BY id DESC");
 }
+
+$loop = 0;
+
+while($log = mysqli_fetch_array($query)) {
+    $user = mysqli_fetch_assoc(mysqli_query($mysqli, "SELECT `name` FROM users WHERE id = {$log['user_id']}"));
+
+    $result['logs'][$loop]['date_log'] = $log['date_log'];
+    $result['logs'][$loop]['username'] = $user['name'];
+    $result['logs'][$loop]['content']  = $log['content'];
+
+    $loop++;
+}
+
+send($result);
 
 ?>
