@@ -5,7 +5,19 @@ $mysqli = new mysqli('sql248.main-hosting.eu','u189246192_lunacy_1','St4rSh1p@20
 header('Content-Type: application/json; charset=utf-8');
 
 function send($string) {
-    echo json_encode($string);
+    $result['status'] = 'success';
+    $result          += $string;
+
+    echo json_encode($result);
+}
+
+function error($string) {
+    $result['status']  = "failed";
+    $result['message'] = $string;
+    
+    echo json_encode($result);
+
+    exit;
 }
 
 function encrypt($string) {
