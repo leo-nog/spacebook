@@ -1,10 +1,10 @@
-.App {
+/*.Cadastro {
 
     position: absolute;
     width: 45.375rem;
     height: 48rem;
 }
-.imagelogin {
+.imagecadastro {
     position: absolute;
     width: 78.508rem;
     height: 64rem;
@@ -19,7 +19,7 @@
     left: 59.75rem;
     top: 7.825rem;
 }
-.Titlelogin {
+.Titlesign {
     position: absolute;
     width: 38.75rem;
     height: 1.813rem;
@@ -49,7 +49,7 @@
     line-height: 1.313rem;
 }
 .logininputemail {
-    /* Rectangle 2 */
+     Rectangle 2 
 
 
     position: absolute;
@@ -64,7 +64,7 @@
     border-radius: 0.375rem;
 
 
-    /* E-mail */
+    
 
 
     position: absolute;
@@ -78,7 +78,7 @@
     font-weight: normal;
     font-size: 1rem;
     line-height: 1.188rem;
-    /* identical to box height */
+    
 
 
     color: #9D9D9D;
@@ -86,7 +86,7 @@
 }
 .Titlepass {
 
-    /* Password */
+    
 
 
     position: absolute;
@@ -100,13 +100,13 @@
     font-weight: normal;
     font-size: 1.125rem;
     line-height: 1.313rem;
-    /* identical to box height */
+    
 
 
     color: #000000;
 }
 .logininputpass {
-    /* Rectangle 3 */
+     Rectangle 3 
 
 
     position: absolute;
@@ -121,7 +121,7 @@
     border-radius: 0.375rem;
 
 
-    /* Password */
+    
 
 
     position: absolute;
@@ -135,14 +135,14 @@
     font-weight: normal;
     font-size: 1rem;
     line-height: 1.188rem;
-    /* identical to box height */
+    
 
 
     color: #9D9D9D;
 
 }
 .checkbox {
-    /* Remenber me */
+   
     position: absolute;
 width: 100px;
 height: 19px;
@@ -154,14 +154,14 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
-/* identical to box height */
+
 
 
 color: #9D9D9D;
 
 }
 .resetpass {
-    /* Reset Password? */
+  
 
 
     position: absolute;
@@ -175,7 +175,7 @@ color: #9D9D9D;
     font-weight: normal;
     font-size: 1rem;
     line-height: 1.188rem;
-    /* identical to box height */
+  
 
 
     color: #9D9D9D;
@@ -183,8 +183,7 @@ color: #9D9D9D;
 }
 .buttonsigninname {
     align-items: center;
-    /* Rectangle 4 */
-    
+   
     margin: 0rem;
     padding: 0rem;
     
@@ -194,7 +193,7 @@ color: #9D9D9D;
     left: 59.813rem;
     top: 42.438rem;
 
-    /* oficial_1 */
+   
 
     background: #2E57C8;
     border: 0.063rem solid #CECECE;
@@ -214,10 +213,10 @@ color: #9D9D9D;
     font-weight: 500;
     font-size: 1.125rem;
     line-height: 1.313rem;
-    /* identical to box height */
+    
 
 
-    /* fundo_telainicial */
+    
 
     color: #F3FBFF;
 }
@@ -228,3 +227,4 @@ color: #9D9D9D;
     left: 957px;
     top: 876px;
 }
+*/

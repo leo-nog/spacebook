@@ -1,10 +1,10 @@
 import React from 'react'
-import './App.css';
+import style from './App.css';
 
 function App()  {
   return (
       <div className="App">
-        <div className="imagelogin">
+        <div className="imagelogin" style={style}>
         <img src="https://i.ibb.co/wBm3x3Y/Adobe-Stock-277977555.png" alt="Astronalta em um Planeta" />
           </div>
         <div className="logotipo">
@@ -16,7 +16,7 @@ function App()  {
         <div className="Titleusername">
           <p>Username</p>
           </div>
-        <div className="logininputemail">
+        <div className="logininputemail" style={style}>
           <input
             type="text"
             placeholder="E-mail">   
@@ -31,8 +31,27 @@ function App()  {
             placeholder="Password">   
           </input>
         </div>
+        <div className="checkbox">
+          <input
+          type="checkbox"
+          id="remember"
+          names="Remember me"
+          >
+          </input>
+          <label for="remember">Remember me</label>
+        </div>
+        <div className="resetpass">
+        <a href="localhost:3000/" >Reset Password?</a>
+        </div>
+        <div className="buttonsignin">
+          <div className="buttonsigninname">
+          <a href="localhost:3000">Sign In</a>
+          </div>
+        </div>
+          <div className="signup">
+            <p>Don't have an account yet? <a href="#">Sign Up</a></p>
+          </div>
       </div>
   );
 }  
-
 export default App;
