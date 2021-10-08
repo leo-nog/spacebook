@@ -3,19 +3,21 @@ import style from './App.css';
 
 function App()  {
   return (
-      <div className="App">
-        <div className="imagelogin" style={style}>
+    <div className="App">
+      <div className="imagelogin" style={style}>
         <img src="https://i.ibb.co/wBm3x3Y/Adobe-Stock-277977555.png" alt="Astronalta em um Planeta" />
-          </div>
+        
+      </div>
+      <div>
         <div className="logotipo">
           <img src="https://i.ibb.co/NVqpRyV/logo-Spacebook.png" alt= "Logotipo Spacebook" />
-          </div>
+        </div>
         <div className="Titlelogin">
           <p>Login</p>
-          </div>
+        </div>
         <div className="Titleusername">
           <p>Username</p>
-          </div>
+        </div>
         <div className="logininputemail" style={style}>
           <input
             type="text"
@@ -45,13 +47,15 @@ function App()  {
         </div>
         <div className="buttonsignin">
           <div className="buttonsigninname">
-          <a href="localhost:3000">Sign In</a>
+          <a href="https://localhost:3000">Sign In</a>
           </div>
         </div>
           <div className="signup">
-            <p>Don't have an account yet? <a href="#">Sign Up</a></p>
+            <p>Don't have an account yet? <a href="https://localhost:3000">Sign Up</a></p>
           </div>
-      </div>
+      </div>    
+    </div>
+      
   );
 }  
 export default App;
