@@ -29,8 +29,8 @@
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 1.563rem;
+    line-height: 1.813rem;
 
     color: #000000;
 }
@@ -56,6 +56,7 @@
     width: 25.813rem;
     height: 3rem;
     left:59.75rem;
+
     top: 25.688rem;
 
     background: #FFFFFF;
@@ -70,7 +71,9 @@
     position: absolute;
     width: 2.813rem;
     height: 1.188rem;
-    left: 60.875;
+
+    left: 60.875rem;
+
     top: 26.625rem;
 
     font-family: Roboto;
@@ -112,7 +115,11 @@
     position: absolute;
     width: 25.813rem;
     height: 3rem;
+
     left: 60.875rem;
+
+    left: 59.75rem;
+
     top: 33rem;
 
     background: #FFFFFF;
@@ -127,7 +134,11 @@
     position: absolute;
     width: 4.438rem;
     height: 1.188rem;
+
     left: 59.75rem;
+
+    left: 60.875rem;
+
     top: 33.938rem;
 
     font-family: Roboto;
