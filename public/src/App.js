@@ -17,41 +17,45 @@ function App()  {
         <div className="Titleusername">
           <p>Username</p>
         </div>
+        
         <div className="logininputemail" >
-          <div className="Retangle">
           <input 
-          type="text" 
-          placeholder="E-mail">   
+            type="text" 
+            placeholder="E-mail">   
           </input>
-          </div>
+        </div>
+        <div className="Retangle">
         </div>
         <div className="Titlepass">
           <p>Password</p>
-          </div>
+        </div>
         <div className="logininputpass">
           <input
             type="text"
             placeholder="Password">   
           </input>
         </div>
+          <div className="Retanglepass">
+          </div>
         <div className="checkbox">
           <input
           type="checkbox"
           id="remember"
           names="Remember me"
           >
-          </input>
+          </input>       
           <label for="remember">Remember me</label>
-        </div>
+          </div>
         <div className="resetpass">
-        <a href="localhost:3000/" >Reset Password?</a>
+          <a href="localhost:3000/" >Reset Password?</a>
         </div>
         <div className="buttonsignin">
-          <div className="buttonsigninname">
-          <a href="https://localhost:3000/pages/Inicio.js">Sign In</a>
-          </div>
         </div>
-          <div className="signup">
+        <div className="buttonsigninname">
+           <a href="https://localhost:3000/pages/Inicio.js">Sign In</a>
+        </div>
+        
+        <div className="signup">
             <p>Don't have an account yet? <a href="https://localhost:3000/pages/Cadastro.js">Sign Up</a></p>
           </div>
       </div>    
