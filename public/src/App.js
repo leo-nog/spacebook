@@ -48,11 +48,11 @@ function App()  {
         </div>
         <div className="buttonsignin">
           <div className="buttonsigninname">
-          <a href="https://localhost:3000">Sign In</a>
+          <a href="https://localhost:3000/pages/Inicio.js">Sign In</a>
           </div>
         </div>
           <div className="signup">
-            <p>Don't have an account yet? <a href="https://localhost:3000">Sign Up</a></p>
+            <p>Don't have an account yet? <a href="https://localhost:3000/pages/Cadastro.js">Sign Up</a></p>
           </div>
       </div>    
     </div>

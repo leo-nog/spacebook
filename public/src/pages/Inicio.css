@@ -1,0 +1,177 @@
+.Iniciopage {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #FFFFFF;
+}
+.Logotipoinicio {
+    position: absolute;
+width: 50%;
+height: 51px;
+left: 128px;
+top: 50px;
+}
+.Messagetitle {
+    /* message */
+
+
+position: absolute;
+width: 74px;
+height: 21px;
+left: 133px;
+top: 208px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.typeimage {
+    /* Auto Layout */
+
+display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: center;
+padding: 12px 16px 12px 15px;
+
+position: absolute;
+width: 741px;
+height: 45px;
+left: 128px;
+top: 247px;
+
+/* Gray 2 */
+
+border: 1px solid #4F4F4F;
+box-sizing: border-box;
+border-radius: 10px;
+
+}
+.vectormessage {
+    /* Vector */
+    position: static;
+    left: 95.52%;
+    right: 2.4%;
+    top: 26.67%;
+    bottom: 26.67%;
+    
+     
+    /* Inside Auto Layout */
+    
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 630px;
+}
+.profile {
+    /* Auto Layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 265.92px;
+height: 35px;
+left: 1042px;
+top: 98px;
+
+}
+.profile {
+    /* image 1 */
+
+
+/* image 1 */
+
+
+position: flex;
+width: 50%;
+height: 35px;
+left: 800px;
+top: 50px;
+align-items: right;
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+}
+.photo {
+    /* image 1 */
+
+
+position: static;
+width: 35px;
+height: 35px;
+left: 0px;
+top: 0px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+}
+.name {
+    position: static;
+width: 161px;
+height: 29px;
+left: 59px;
+top: 3px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+
+/* oficial_4 */
+
+color: #1B3787;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 24px;
+}
+.menuprofile {
+    /* Vector */
+
+
+position: static;
+left: 94.76%;
+right: 0%;
+top: 38.21%;
+bottom: 38.21%;
+
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 32px;
+
+}

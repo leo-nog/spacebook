@@ -1,32 +1,39 @@
-/*.Cadastro {
+.Signin {
 
-    position: absolute;
-    width: 45.375rem;
-    height: 48rem;
+    width: 100%;
+    height: 100%;
+
+    background: #FFFFFF;
+}
+.FormCadastro {
+    width: 50%;
 }
 .imagecadastro {
     position: absolute;
-    width: 78.508rem;
-    height: 64rem;
-    left: -10.819rem;
-    top: 0rem;
+    width: 50%;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
 }
 
-.logotipo {
+.LogotipoRegistro {
     position: absolute;
-    width: 14.875rem;
-    height: 2.625rem;
-    left: 59.75rem;
-    top: 7.825rem;
+    width: 238px;
+    height: 42px;
+    left: 956px;
+    top: 126px;
 }
 .Titlesign {
-    position: absolute;
-    width: 38.75rem;
-    height: 1.813rem;
-    left: 59.75rem;
-    top: 18.813rem;
+    /* Sign */
 
-    font-family: Roboto Slab;
+
+    position: absolute;
+    width: 49px;
+    height: 29px;
+    left: 956px;
+    top: 242px;
+
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
@@ -34,197 +41,289 @@
 
     color: #000000;
 }
-.Titleusername {
+.Titlename {
 
-    position: absolute;
-    width: 5.125rem;
-    height: 1.313rem;
-    left: 59.75rem;
-    top: 23.375rem;
+    /* Name */
 
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.125rem;
-    line-height: 1.313rem;
+
+position: absolute;
+width: 48px;
+height: 21px;
+left: 956px;
+top: 315px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
 }
-.logininputemail {
-     Rectangle 2 
-
-
+.Retangle {
     position: absolute;
-    width: 25.813rem;
-    height: 3rem;
-    left:59.75rem;
-    top: 25.688rem;
+    width: 413px;
+    height: 48px;
+    left: 956px;
+    top: 352px;
 
     background: #FFFFFF;
-    border: 0.063rem solid #CECECE;
+    border: 1px solid #CECECE;
     box-sizing: border-box;
-    border-radius: 0.375rem;
-
-
-    
+    border-radius: 6px;
+}
+.Nameimput {
+    /* Name */
 
 
     position: absolute;
-    width: 2.813rem;
-    height: 1.188rem;
-    left: 60.875;
-    top: 26.625rem;
+    width: 43px;
+    height: 19px;
+    left: 974px;
+    top: 367px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
-    line-height: 1.188rem;
-    
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
 
 
     color: #9D9D9D;
 
 }
-.Titlepass {
-
-    
+.Titlemail {
+    /* E-mail */
 
 
     position: absolute;
-    width: 5rem;
-    height: 1.313rem;
-    left: 59.75rem;
-    top: 30.688rem;
+    width: 50px;
+    height: 21px;
+    left: 956px;
+    top: 432px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.125rem;
-    line-height: 1.313rem;
-    
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
 
 
     color: #000000;
 }
-.logininputpass {
-     Rectangle 3 
-
-
+.Retanglemail {
     position: absolute;
-    width: 25.813rem;
-    height: 3rem;
-    left: 60.875rem;
-    top: 33rem;
+    width: 413px;
+    height: 48px;
+    left: 956px;
+    top: 469px;
 
     background: #FFFFFF;
-    border: 0.063rem solid #CECECE;
+    border: 1px solid #CECECE;
     box-sizing: border-box;
-    border-radius: 0.375rem;
-
-
-    
-
-
-    position: absolute;
-    width: 4.438rem;
-    height: 1.188rem;
-    left: 59.75rem;
-    top: 33.938rem;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1rem;
-    line-height: 1.188rem;
-    
-
-
-    color: #9D9D9D;
-
+    border-radius: 6px;
 }
-.checkbox {
-   
-    position: absolute;
-width: 100px;
+.registerinputemail {
+    /* E-mail */
+
+
+position: absolute;
+width: 45px;
 height: 19px;
-left: 982px;
-top: 591px;
+left: 974px;
+top: 484px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
-
+/* identical to box height */
 
 
 color: #9D9D9D;
 
 }
-.resetpass {
-  
+.Titlepass {
+/* Password */
 
 
     position: absolute;
-    width: 7.938rem;
-    height: 1.188rem;
-    left: 77.688rem;
-    top: 36.938rem;
+    width: 80px;
+    height: 21px;
+    left: 956px;
+    top: 549px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
-    line-height: 1.188rem;
-  
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
 
 
-    color: #9D9D9D;
+    color: #000000;
+}
+.Retanglepass {
+    position: absolute;
+    width: 413px;
+    height: 48px;
+    left: 956px;
+    top: 586px;
+
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.registerinputpass {
+    /* Password */
+
+
+position: absolute;
+width: 71px;
+height: 19px;
+left: 974px;
+top: 601px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #9D9D9D;
 
 }
-.buttonsigninname {
-    align-items: center;
-   
-    margin: 0rem;
-    padding: 0rem;
-    
-    position: absolute;
-    width: 25.813rem;
-    height: 3.188rem;
-    left: 59.813rem;
-    top: 42.438rem;
+.Titleconfirmpass {
+    /* Confirm Password */
 
-   
+
+    position: absolute;
+    width: 148px;
+    height: 21px;
+    left: 956px;
+    top: 666px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+.registerinputconfirmpass {
+
+    position: absolute;
+    width: 71px;
+    height: 19px;
+    left: 974px;
+    top: 718px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #9D9D9D;
+  
+}
+.Retangleconfirmpass {
+    position: absolute;
+    width: 413px;
+    height: 48px;
+    left: 956px;
+    top: 703px;
+
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.buttonregister {
+    /* Frame 1 */
+
+
+/* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 179px;
+
+    position: absolute;
+    width: 420px;
+    height: 51px;
+    left: 957px;
+    top: 813px;
+
+    /* oficial_1 */
 
     background: #2E57C8;
-    border: 0.063rem solid #CECECE;
-    box-sizing: border-box;
-    border-radius: 0.625rem;    
+    border-radius: 10px;    
 }
-.buttonsigninname {
+.registername {
     
-    position: absolute;
-    width: 25.813rem;
-    height: 3.188rem;
-    left: 59.813rem;
-    top: 42.438rem;
+    /* register */
+
+
+    position: static;
+    width: 62px;
+    height: 21px;
+    left: 179px;
+    top: 15px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.125rem;
-    line-height: 1.313rem;
-    
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
 
 
-    
+    /* fundo_telainicial */
 
     color: #F3FBFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
 }
-.signup {
+.tologin {
+    
     position: absolute;
-    width: 413px;
+    width: 50%;
     height: 26px;
     left: 957px;
-    top: 876px;
+    top: 943px;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+
 }
-*/
