@@ -1,14 +1,13 @@
 import React from 'react'
-import style from './App.css';
+import './App.css';
 
 function App()  {
   return (
     <div className="App">
-      <div className="imagelogin" style={style}>
+      <div className="Imagelogin" >
         <img src="https://i.ibb.co/wBm3x3Y/Adobe-Stock-277977555.png" alt="Astronalta em um Planeta" />
-        
-      </div>
-      <div>
+        </div>
+      <div className="Login">
         <div className="logotipo">
           <img src="https://i.ibb.co/NVqpRyV/logo-Spacebook.png" alt= "Logotipo Spacebook" />
         </div>
@@ -18,11 +17,13 @@ function App()  {
         <div className="Titleusername">
           <p>Username</p>
         </div>
-        <div className="logininputemail" style={style}>
-          <input
-            type="text"
-            placeholder="E-mail">   
+        <div className="logininputemail" >
+          <div className="Retangle">
+          <input 
+          type="text" 
+          placeholder="E-mail">   
           </input>
+          </div>
         </div>
         <div className="Titlepass">
           <p>Password</p>
